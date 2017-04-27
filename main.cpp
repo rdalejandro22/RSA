@@ -13,12 +13,30 @@ using namespace NTL;
 int main()
 {
     srand(time(NULL));
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     string texto_plano = "Mango";
     RSA Receptor; //pepe
     ZZ clave_publica = Receptor.get_clave_publica();
-    RSA Emisor(clave_publica); //Juan
-    string texto_cifrado = Receptor.cifrar(texto_plano);
-    cout << Receptor.descifrar(texto_cifrado);
+    ZZ n = Receptor.get_N();
+    RSA Emisor(clave_publica, n); //Juan
+    string texto_cifrado = Emisor.cifrar(texto_plano);
+    cout << texto_cifrado << endl;
+    string texto_descifrado = Receptor.descifrar(texto_cifrado);
+    cout << texto_descifrado;
 
     //Cesar
     /*Cesar cesar(4);

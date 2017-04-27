@@ -8,5 +8,5 @@ ZZ euclides(ZZ a, ZZ b);
 ZZ mcd(ZZ a, ZZ b);
 std::vector <ZZ> euclides_extendido(ZZ a, ZZ b);
 ZZ inversa(ZZ a, ZZ alfabeto);
-ZZ potencia(int a, ZZ b, int modu);
+ZZ potencia(int a, ZZ b, ZZ modu);
 #endif // FUNCIONES MATEMATICAS_H

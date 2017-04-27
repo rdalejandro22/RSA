@@ -76,17 +76,16 @@ ZZ inversa(ZZ a, ZZ alfabeto)
     }
     return x;
 }
-ZZ potencia(int a, ZZ b, int modu)
+ZZ potencia(int a, ZZ b, ZZ modu)
 {
     ZZ result = to_ZZ(1);
     ZZ n = to_ZZ(2);
-    ZZ mango = to_ZZ(modu);
     ZZ wapo = to_ZZ(a);
     while(b != 0){
         if(modulo(b,n)==1){
-            result = modulo((result * wapo),mango);
+            result = modulo((result * wapo),modu);
         }
-        wapo = modulo((wapo * wapo),mango);
+        wapo = modulo((wapo * wapo),modu);
         b = b/2;
     }
     return result;

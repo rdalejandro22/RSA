@@ -9,8 +9,9 @@ class RSA
     ZZ clave_publica, clave_privada, N;
     void generar_claves();
     public:
-        RSA(ZZ clave_publica);
+        RSA(ZZ e, ZZ n);
         RSA();
+        ZZ get_N();
         ZZ get_clave_publica();
         std::string cifrar(std::string mensaje);
         std::string descifrar(std::string mensaje_cifrado);
