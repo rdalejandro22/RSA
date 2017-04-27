@@ -7,27 +7,13 @@
 #include "RSA.h"
 #include "PRNG.h"
 #include <time.h>
+#include "BBS.h"
 using namespace std;
 using namespace NTL;
 
 int main()
 {
-    srand(time(NULL));
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+    /*srand(time(NULL));
     string texto_plano = "wapo";
     RSA Receptor; //pepe
     ZZ clave_publica = Receptor.get_clave_publica();
@@ -35,7 +21,18 @@ int main()
     RSA Emisor(clave_publica, n); //Juan
     vector <ZZ> texto_cifrado = Emisor.cifrar(texto_plano);
     string texto_descifrado = Receptor.descifrar(texto_cifrado);
-    cout << texto_descifrado;
+    cout << texto_descifrado;*/
+
+    /*ZZ p = to_ZZ(103);
+    ZZ q = to_ZZ(197);
+    ZZ s = to_ZZ(23);
+    BBS b(p, q, s);
+    int n = 1000;
+    cout << n << endl;
+    for(int i = 0; i < n; ++i)
+    {
+        cout << b.getrandom() << endl;
+    }*/
 
     //Cesar
     /*Cesar cesar(4);
