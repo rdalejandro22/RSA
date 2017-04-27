@@ -37,15 +37,15 @@
 		<Unit filename="include/Afin.h" />
 		<Unit filename="include/Cesar.h" />
 		<Unit filename="include/Funciones Matematicas.h" />
-		<Unit filename="include/Generador N.Random.h" />
 		<Unit filename="include/PRNG.h" />
+		<Unit filename="include/RSA.h" />
 		<Unit filename="include/Rail Fence.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/Afin.cpp" />
 		<Unit filename="src/Cesar.cpp" />
 		<Unit filename="src/Funciones Matematicas.cpp" />
-		<Unit filename="src/Generador N.Random.cpp" />
 		<Unit filename="src/PRNG.cpp" />
+		<Unit filename="src/RSA.cpp" />
 		<Unit filename="src/Rail Fence.cpp" />
 		<Extensions>
 			<code_completion />

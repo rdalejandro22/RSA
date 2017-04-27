@@ -6,15 +6,15 @@
 	<string>
 	"Funciones Matematicas.h"
 
-1493264824 i:\ag lab\include\funciones matematicas.h
+1493305722 i:\ag lab\include\funciones matematicas.h
 	<vector>
 	<NTL/ZZ.h>
 
-1493264818 source:i:\ag lab\src\funciones matematicas.cpp
+1493305612 source:i:\ag lab\src\funciones matematicas.cpp
 	"Funciones Matematicas.h"
 	<NTL/ZZ.h>
 
-1493268440 source:i:\ag lab\main.cpp
+1493305308 source:i:\ag lab\main.cpp
 	<iostream>
 	<NTL/ZZ.h>
 	<string>
@@ -159,14 +159,15 @@
 
 1492658494 e:\ag lab\include\prng.h
 
-1493268332 source:i:\ag lab\src\rsa.cpp
+1493305758 source:i:\ag lab\src\rsa.cpp
 	"RSA.h"
 	"PRNG.h"
 	<iostream>
 	<NTL/ZZ.h>
 	"Funciones Matematicas.h"
 
-1493265820 i:\ag lab\include\rsa.h
+1493305172 i:\ag lab\include\rsa.h
 	<string>
 	<NTL/ZZ.h>
+	<vector>
 

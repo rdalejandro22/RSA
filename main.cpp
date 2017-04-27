@@ -28,13 +28,12 @@ int main()
 
 
 
-    string texto_plano = "Mango";
+    string texto_plano = "wapo";
     RSA Receptor; //pepe
     ZZ clave_publica = Receptor.get_clave_publica();
     ZZ n = Receptor.get_N();
     RSA Emisor(clave_publica, n); //Juan
-    string texto_cifrado = Emisor.cifrar(texto_plano);
-    cout << texto_cifrado << endl;
+    vector <ZZ> texto_cifrado = Emisor.cifrar(texto_plano);
     string texto_descifrado = Receptor.descifrar(texto_cifrado);
     cout << texto_descifrado;
 
